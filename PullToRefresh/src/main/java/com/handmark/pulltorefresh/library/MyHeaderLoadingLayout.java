@@ -81,6 +81,7 @@ public class MyHeaderLoadingLayout extends LoadingLayoutBase {
     //拖动回调
     @Override
     public void onPull(float scaleOfLayout) {
+        Log.e(TAG, scaleOfLayout + "");
         Log.e(TAG, "onPull");
     }
 
